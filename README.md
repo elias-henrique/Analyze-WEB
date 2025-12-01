@@ -140,10 +140,10 @@ python exploit.py https://exemplo.com -v
 ### Scan completo com relatório
 ```bash
 # 1. Execute o scanner
-python scanner.py https://crm-l7.vercel.app -o scan.json -v
+python scanner.py https://test.app -o scan.json -v
 
 # 2. Analise vulnerabilidades
-python analyzer.py https://crm-l7.vercel.app -o vuln
+python analyzer.py https://test.app -o vuln
 
 # 3. Visualize os relatórios
 # - scan.json (resultados do scan)
