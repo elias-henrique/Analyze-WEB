@@ -1,7 +1,6 @@
 # Arquivos de output
 *.json
 *.html
-*.md
 *.js
 scan_results.json
 vulnerability_report.*
